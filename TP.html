@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>-->
+    <script src="js/jquery-3.3.1.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>jQuery</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Form.php" rel="stylesheet">
+    <link href="css/TP.css" rel="stylesheet">
+</head>
+
+ <body>
+
+<form method="post" id="Form">
+  <h1>FORMULAIRE POUR ENTREPRISE</h1>
+  <label for="civilite">Civilité</label>
+   <input type="text" id="civilite" placeholder="Monsieur/Madame" required> <br>
+  <label for="nom">Nom</label>
+   <input type="text" id="nom" placeholder="Nom" required> <br>
+  <label for="prenom">Prénom</label>
+   <input type="text" id="prenom" placeholder="Prénom" required> <br>
+  <label for="mail">Mail</label>
+  <input type="text" id="mail" placeholder="xxx@mail.com" required> <br>
+  <label for="pass">Mot de passe</label>
+  <input type="text" id="password" placeholder="****" required> <br>
+  <label for="profession">Profession</label>
+  <input type="text" id="profession" placeholder="Fonctonnaire" required><br>
+  <label for="observation">Observation</label>
+  <input type="text" id="observation" style="height:180px;" placeholder="80 Caractère Max"><br>
+ <button type="submit" name="envoyer">Envoyer</button>
+</form>
+
+ </body>
+</html>
